@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <title>Portfolio</title>
+    <title>Portafolio</title>
   </head>
   <body class="dark">
     <header class="header">
@@ -16,6 +16,14 @@
           class="toggle-theme__icon">
           <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
         </div>
+      </div>
+      <div class="flags" id="flags">
+        <div class="flags__item" data-language="es">
+          <img src="assets/images/es.svg" alt="Bandera España">
+        </div>
+          <div class="flags__item" data-language="en">
+            <img src="assets/images/us.svg" alt="Bandera EEUU">
+          </div>
       </div>
       <div id="toggle-colors" class="colors">
         <div data-color="hsl(214,84%,56%)" class="colors__item colors__item--blue"></div>
@@ -31,8 +39,8 @@
               <img src="assets/images/profile.jpg" alt="">
             </div>
             <div class="card__header">
-              <h2 class="card__title">Ivan Suarez Ezequiel</h2>
-              <p class="card_subtitle">Front end developer and backen developer</p>
+              <h2 class="card__title no-margin">Ivan Suarez Ezequiel</h2>
+              <p class="card_subtitle">Desarrollador Front and Backend developer</p>
             </div>
             <div class="card__body">
               <div class="card__link">
@@ -44,120 +52,169 @@
                 <a href="tel:1162970250">+541162970250</a>
               </div>
               <p class="card__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repudiandae quisquam quia in adipisci minus modi, ullam reprehenderit, earum, labore illo molestias consequatur eius atque! Voluptas, voluptatem fuga? Culpa earum quas amet vero suscipit, quisquam dolorum qui. Officia, distinctio accusantium.
+                Mi nombre es Ivan Suarez Ezequiel, tengo 24 años, soy apasionado por la tecnología desde muy chico, tengo 2 años de experiencia en desarrollo web y aplicaciones. <br>
+                Me considero una persona que se esfuerza cada día para mejorar y aprender nuevas cosas. Si aparece un error no descanso hasta solucionarlo y si no conozco me informo y aprendo para ya estar preparado para los posibles problemas futuros, a su vez también mejorando mi código.
+                Mi conocimiento es por cursos hechos en la UTN e institutos, pero lo más me ayuda y me sigue ayudando es los profesores de YouTube.
               </p>
             </div>
           </article>
+          <article class="card card--experience">
+            <h2 class="card__title">Experiences</h2>
+            <div class="experience">
+              <img src="assets/images/logo.png" alt="logo" height="150px" class="experience__image">
+              <div class="experience__info">
+                <p class="experience__time">
+                  2019 - 2020
+                </p>
+                <h3 class="experience__job">Creación página web "El Salvador"</h3>
+                <p class="experoemce__description">Creación desde el inicio hasta su última versión. pagina hecha para un instituto.</p>
+              </div>
+            </div>
+          </article>
+          <article class="card card--experience">
+            <h2 class="card__title">Experiences</h2>
+            <div class="experience">
+              <img src="assets/images/logo.png" alt="logo" class="experience__image">
+              <div class="experience__info">
+                <p class="experience__time">
+                  2020 - 2021
+                </p>
+                <h3 class="experience__job">sobre lo que hicimos</h3>
+                <p class="experoemce__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+          </article>
 
+          <article class="card card--hobbies">
+            <h2 class="card__title">Hobbis</h2>
+            <div class="card__image-container">
+              <img src="assets/images/juegos.jpg" alt="control">
+              <h3 class="hobbies__title">Games</h3>
+              <p class="card__text">Me gusta cualquier tipo de videojuego y actualmente pertenezco a un equipo competitivo de Overwatch</p>
+              <img src="assets/images/series.jpg" alt="series">
+              <h3 class="hobbies__title">Series, animes y peliculas</h3>
+              <p class="card__text">Accion, comedia y fantacia</p>
+            </div>
+          </article>
+          
         </section>
+        
         <section class="column column--right">
           <article class="card">
             <h2 class="card__title">Fornt end</h2>
             <small>Experiencia</small>
-            <div class="skills">
-              <div class="skills__item">
-              <p class="skills__tech">HTML</p>
-              <div class="skills__bar skills__bar--85"></div>
+              <div class="skills">
+                <div class="skills__header">
+                <span class="skills__start-level">0</span>
+                <span class="skills__start-level">10</span>
+                </div>
+              </div>
+              <div class="skills">
+                <div class="skills__item">
+                <p class="skills__tech">HTML</p>
+                <div class="skills__bar skills__bar--85"></div>
               </div>
               <div class="skills__item">
-                <p class="skills__tech">CSS</p>
-                <div class="skills__bar skills__bar--70"></div>
-                </div>
-                <div class="skills__item">
-                  <p class="skills__tech">JS</p>
-                  <div class="skills__bar skills__bar--50"></div>
-                  </div>
-                  <div class="skills__item">
-                    <p class="skills__tech">GitHub</p>
-                    <div class="skills__bar skills__bar--90"></div>
-                    </div>
-                    <div class="skills__item">
-                      <p class="skills__tech">Git</p>
-                      <div class="skills__bar skills__bar--95"></div>
-                      </div>
-                      <div class="skills__item">
-                        <p class="skills__tech">Boostrap</p>
-                        <div class="skills__bar skills__bar--80"></div>
-                        </div>
-                        <div class="skills__item">
-                          <p class="skills__tech">React.js</p>
-                          <div class="skills__bar skills__bar--65"></div>
-                          </div>
-                          <div class="skills__item">
-                            <p class="skills__tech">Sass</p>
-                            <div class="skills__bar skills__bar--85"></div>
-                            </div>
-                            <div class="skills__item">
-                              <p class="skills__tech">JQuery</p>
-                              <div class="skills__bar skills__bar--85"></div>
-                              </div>
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--70"></div>
+              </div>
+              <div class="skills__item">
+              <p class="skills__tech">JS</p>
+              <div class="skills__bar skills__bar--50"></div>
+              </div>
+              <div class="skills__item">
+              <p class="skills__tech">GitHub</p>
+              <div class="skills__bar skills__bar--90"></div>
+              </div>
+              <div class="skills__item">
+              <p class="skills__tech">Git</p>
+              <div class="skills__bar skills__bar--95"></div>
+              </div>
+              <div class="skills__item">
+              <p class="skills__tech">Boostrap</p>
+              <div class="skills__bar skills__bar--80"></div>
+              </div>
+              <div class="skills__item">
+              <p class="skills__tech">React.js</p>
+              <div class="skills__bar skills__bar--65"></div>
+              </div>
+              <div class="skills__item">
+              <p class="skills__tech">Sass</p>
+              <div class="skills__bar skills__bar--60"></div>
+              </div>
+              <div class="skills__item">
+              <p class="skills__tech">JQuery</p>
+              <div class="skills__bar skills__bar--65"></div>
+              </div>
+                            
+
             </div>
           </article>
           <article class="card">
             <h2 class="card__title">Back end</h2>
             <small>Experiencia</small>
             <div class="skills">
-              <div class="skills__item">
-              <p class="skills__tech">Node.js</p>
-              <div class="skills__bar skills__bar--85"></div>
-              </div>
-              <div class="skills__item">
-                <p class="skills__tech">MongoDB</p>
-                <div class="skills__bar skills__bar--85"></div>
-                </div>
-                <div class="skills__item">
-                  <p class="skills__tech">MySQL</p>
-                  <div class="skills__bar skills__bar--85"></div>
-                  </div>
-                  <div class="skills__item">
-                    <p class="skills__tech">Express</p>
-                    <div class="skills__bar skills__bar--85"></div>
-                    </div>
-                    <div class="skills__item">
-                      <p class="skills__tech">PHP</p>
-                      <div class="skills__bar skills__bar--85"></div>
-                      </div>
+            <div class="skills__item">
+            <p class="skills__tech">Node.js</p>
+            <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skills__item">
+            <p class="skills__tech">MongoDB</p>
+            <div class="skills__bar skills__bar--75"></div>
+            </div>
+            <div class="skills__item">
+            <p class="skills__tech">MySQL</p>
+            <div class="skills__bar skills__bar--60"></div>
+            </div>
+            <div class="skills__item">
+            <p class="skills__tech">Express</p>
+            <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skills__item">
+            <p class="skills__tech">PHP</p>
+            <div class="skills__bar skills__bar--50"></div>
+            </div>
                      
             </div>
-          </article>
         </article>
         <article class="card">
           <h2 class="card__title">Conocimiento</h2>
           <div class="skills">
             <div class="skills__item">
             <p class="skills__tech">C++</p>
-            <div class="skills__bar skills__bar--85"></div>
+            <div class="skills__bar skills__bar--30"></div>
             </div>
-            <div class="skills__item">
-              <p class="skills__tech">Express</p>
+            <div class="skills__item">            
+              <p class="skills__tech">Angular</p>
               <div class="skills__bar skills__bar--85"></div>
               </div>
               <div class="skills__item">
-                <p class="skills__tech">Handlebars</p>
-                <div class="skills__bar skills__bar--85"></div>
-                </div>
-                <div class="skills__item">
-                  <p class="skills__tech">Express</p>
-                  <div class="skills__bar skills__bar--85"></div>
-                  </div>
-                  <div class="skills__item">
-                    <p class="skills__tech">Nodemailer</p>
-                    <div class="skills__bar skills__bar--85"></div>
-                    </div>
-                    <div class="skills__item">
-                      <p class="skills__tech">Multer</p>
-                      <div class="skills__bar skills__bar--85"></div>
-                      </div>
-                      <div class="skills__item">
-                        <p class="skills__tech">Heroku</p>
-                        <div class="skills__bar skills__bar--85"></div>
-                        </div>
-                        <div class="skills__item">
-                          <p class="skills__tech">Angular</p>
-                          <div class="skills__bar skills__bar--85"></div>
-                          </div>
+              <p class="skills__tech">Photoshop</p>
+              <div class="skills__bar skills__bar--40"></div>
+              </div>
           </div>
         </article>
+       <article class="card card--project">
+        <div class="card__image-container">
+          <img src="assets/images/Proyec1.JPG" alt="Landing page" class="card_image">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#html</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#JavaScript</span>
+            <span class="project__tag">#html</span>
+          </div>
+          <h2 class="card__title">Primer proyecto</h2>
+          <p class="card__text">Pequeño proyecto completo con conocimiento de html, css y un poco de JavaScript</p>
+          <p class="card__text">El objetivo de este proyecto era utilizar mi conomiento sin guias y metodos de ayuda para saber cuanto conomiento de forma personal tenia. </p>
+          <p class="card__text">Hice una pagina de servicio de seguridad con un hader, menu "hamburguesa", responsive y un footer.</p>
+          <div class="buttons">
+            <a href="" class="button button--primary">Demo</a>
+            <a href="" class="button button--ghost">Code</a>
+          </div>
+        </div>
+       </article>
         </section>
       </main>
     <script src="js/scripts.js"></script>
