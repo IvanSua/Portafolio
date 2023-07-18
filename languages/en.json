@@ -1,0 +1,29 @@
+{
+    "profile": {
+        "rol": "Full stack developer",
+        "description":"My name is Ivan Suarez Ezequiel, I am 24 years old, I am passionate about technology since I was a child, I have 2 years of experience in web development and applications. I consider myself a person who strives every day to improve and learn new things. If a bug appears I do not rest until it is solved and if I do not know I learn and learn to be prepared for possible future problems, in turn also improving my code. My knowledge comes from courses taken at UTN and institutes, but what helps me the most is the YouTube teachers."
+    },
+    "hobby":{
+        "first-hobby-title":"Games",
+        "first-hobby-description":"I enjoy any type of video game and currently belong to a competitive Overwatch team.",
+        "second-hobby-title":"Series, anime and movies",
+        "second-hobby-description":"Action, comedy and fantasy"
+        },
+    "projects": {
+        "first-project-title":"First project",
+        "first-project-text-one":"Small project complete with knowledge of html, css and some JavaScript.",
+        "first-project-text-two":"The objective of this project was to use my knowledge without guides and help methods to find out how much knowledge I personally had. ",
+        "first-project-text-three":"I made a security service page with a hader, hamburger menu, responsive and a footer.",
+        "second-project-title":"Second project",
+        "second-project-text-one":"Calculator made with html, css and JavaScript",
+        "second-project-text-two":"The calculator has 3 versions:",
+        "second-project-text-three":"1- simple ",
+        "second-project-text-four":"2- I included a footer with my networks and contact information.",
+        "second-project-text-five":"3- dark mode.",
+        "second-project-text-six": "If you see the code please pay attention to the branch. Use git to see the other versions.",
+        "third-project-title":"Third project",
+        "third-project-text-one":"Javascrip project/practice, it was a nice challenge and refined my js practice.",
+        "third-project-text-two":"The site has a scoring system, three questions that are random and change every time a new game is started.",
+        "third-project-text-three":"It has a score keeping system, the questions are highlighted in green if correct and red if false."
+    }
+}

@@ -321,6 +321,12 @@ body.dark{
     color: var(--bg-color);
 }
 
+.Button-cv{
+display: flex;
+justify-content: space-between;
+width: 225px;
+}
+
 .buttons{
     display: flex;
     justify-content: space-between;

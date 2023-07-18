@@ -1,0 +1,29 @@
+{
+    "profile": {
+        "rol": "Desarrollador Full Stack ",
+        "description":"Mi nombre es Ivan Suarez Ezequiel, tengo 24 años, soy apasionado por la tecnología desde muy chico, tengo 2 años de experiencia en desarrollo web y aplicaciones. Me considero una persona que se esfuerza cada día para mejorar y aprender nuevas cosas. Si aparece un error no descanso hasta solucionarlo y si no conozco me informo y aprendo para ya estar preparado para los posibles problemas futuros, a su vez también mejorando mi código. Mi conocimiento es por cursos hechos en la UTN e institutos, pero lo más me ayuda y me sigue ayudando es los profesores de YouTube."
+    },
+    "hobby":{
+        "first-hobby-title":"Videos juegos",
+        "first-hobby-description":"Me gusta cualquier tipo de videojuego y actualmente pertenezco a un equipo competitivo de Overwatch",
+        "second-hobby-title":"Series, animes y peliculas",
+        "second-hobby-description":"Accion, comedia y fantacia"
+        },
+    "projects": {
+        "first-project-title":"Primer proyecto",
+        "first-project-text-one":"Pequeño proyecto completo con conocimiento de html, css y un poco de JavaScript",
+        "first-project-text-two":"El objetivo de este proyecto era utilizar mi conomiento sin guias y metodos de ayuda para saber cuanto conomiento de forma personal tenia. ",
+        "first-project-text-three":"Hice una pagina de servicio de seguridad con un hader, menu hamburguesa, responsive y un footer.",
+        "second-project-title":"Segundo proyecto",
+        "second-project-text-one":"Calculadora hecha con html, css y JavaScript",
+        "second-project-text-two":"La calculadora tiene 3 versiones:",
+        "second-project-text-three":"1- simple ",
+        "second-project-text-four":"2- inclui un footer con mis redes e informacion de contacto.",
+        "second-project-text-five":"3- modo oscuro.",
+        "second-project-text-six": "Si ve el codigo por favor preste atencion a el branch. Use git para ver las otras versiones.",
+        "third-project-title":"Tercer proyecto",
+        "third-project-text-one":"Proyecto/practica de javascrip, fue un lindo reto y refine mi practica con js.",
+        "third-project-text-two":"La pagina cuenta con un sistema de puntaje, tres preguntas que son alatorias y van canbiando cada vez que se inicia un nuevo game",
+        "third-project-text-three":"Tiene un sistema de guardo de puntaje, las preguntas se resalta en verde si es correcta y roja en falsa. "
+    }
+}
